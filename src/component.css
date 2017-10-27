@@ -1,0 +1,377 @@
+body {
+  margin: 0;
+  padding-top: 80px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.loginTag {
+  font-size: 5px;
+  margin-right: 50px;
+  float: right;
+  color: #79777b;
+  text-decoration: none;
+}
+
+label {
+  height: 30px;
+  width: 200px;
+  float: left;
+  margin: 10px;
+  padding-top: 5px;
+  text-align: right;
+  user-select: none;
+  box-sizing: border-box;
+}
+
+input {
+  width: 200px;
+  height: 30px;
+  margin: 10px;
+  border-radius: 8px;
+  border: solid 1px #79777b;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.thumbnails {
+  display: block;
+  margin: 10px;
+  padding-left: 220px;
+}
+
+.btn {
+  margin: 10px;
+  height: 30px;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+
+select {
+  margin: 10px;
+  width: 100px;
+  height: 30px;
+  border-radius: 8px;
+  border: solid 1px #59575b;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.loginMain {
+  height: 600px;
+  min-width: 1000px;
+}
+
+.companyLoginBkg {
+  background: #b5f6f0 url("img/companyLogin_Background.png") no-repeat center;
+}
+
+.nannyLoginBkg {
+  background: #cded95 url("img/nannyLogin_Background.png") no-repeat center;
+}
+
+.userLoginBkg {
+  background: #e2cac8 url("img/userLogin_Background.png") no-repeat center;
+}
+
+.loginMainInner {
+  position: absolute;
+  height: 600px;
+  width: 100%;
+
+}
+
+.loginBlock {
+  position: relative;
+  top: 60px;
+  left: 50%;
+  margin-left: 90px;
+  background-color: white;
+  border-radius: 8px;
+  height: 480px;
+  width: 300px;
+  text-align: center;
+}
+
+.loginBlockInner {
+  padding: 50px 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+button:active {
+  transform: translateY(1px);
+}
+
+.registerBox {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.registerMain {
+  min-width: 800px;
+  margin: 0 auto;
+  padding: 20px 0;
+  box-sizing: border-box;
+}
+
+.registerMain > div {
+  min-height: 50px;
+}
+
+.registerInner {
+  min-width: 800px;
+  margin: 0 auto;
+  padding: 20px 0;
+  border-radius: 8px;
+  background-color: #cdc1c4;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.submitBtn {
+  display: block;
+  margin: 20px auto;
+}
+
+.color1 {
+  background-color: #ebf2fa;
+}
+
+.color2 {
+  background-color: #ffeff2;
+}
+
+.color3 {
+  background-color: #e3f4d9;
+}
+
+.blue {
+  background-color: #2EA9DF;
+}
+
+.blueFont {
+  color: #2EA9DF;
+}
+
+.blueBorder:active, .blueBorder:focus {
+  border: solid 1px #2EA9DF;
+}
+
+.green {
+  background-color: limegreen;
+}
+
+.greenFont {
+  color: limeGreen;
+}
+
+.greenBorder:active, .greenBorder:focus {
+  border: solid 1px limegreen;
+}
+
+.pink {
+  background-color: #f47399;
+}
+
+.pinkFont {
+  color: #f47399;
+}
+
+.pinkBorder:active, .pinkBorder:focus {
+  border: solid 1px #f47399;
+}
+
+.brownFont {
+  color: #f4b67d;
+}
+
+.choiceTag {
+  color: #f4497a;
+  font-family: "Noto Sans Mono CJK SC Bold";
+  font-size: 20px;
+}
+
+.choiceBlock {
+  text-align: left;
+}
+
+.choiceBlock > div > label {
+  float: none;
+}
+
+.manageBox {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.manageInner {
+  min-width: 800px;
+  margin: 0 auto;
+  padding: 20px 0;
+  border-radius: 8px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.nav-tabs {
+  padding: 0 100px;
+}
+
+.loginHeader {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+.loginFooter {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.loginFooter > p {
+  margin: 4px 0;
+  font-size: small;
+}
+
+.logo {
+  width: 150px;
+  height: 75px;
+}
+
+.loginHeaderNav {
+  display: inline-block;
+  margin-right: 110px;
+  float: right;
+  position: relative;
+  top: 30px;
+
+}
+
+.loginHeaderNav > a {
+  text-decoration: none;
+  font-size: 18px;
+  margin: 0 5px;
+}
+
+.registerHeader {
+  margin: 0 auto;
+  width: 800px;
+}
+
+.registerHeaderNav {
+  display: inline-block;
+  float: right;
+  position: relative;
+  top: 30px;
+}
+
+.registerHeaderNav > a {
+  text-decoration: none;
+  font-size: 18px;
+  margin: 0 5px;
+}
+
+.managePanel > a {
+  margin: 20px 25px;
+  display: inline-block;
+  width: 100px;
+  height: 120px;
+  text-decoration: none;
+}
+
+.managePanel > a > img {
+  width: 100px;
+  height: 100px;
+}
+
+.managePanel > a > span {
+  display: block;
+  margin-top: 5px;
+  color: black;
+  font-size: medium;
+}
+
+#statue-tab > .nav-tabs {
+  padding-left: 50px;
+}
+
+#statue-tab > .nav-tabs > li > a {
+  color: #f47399;
+}
+
+.table {
+  margin: 0 auto;
+  width: 75%;
+  background-color: white;
+}
+
+.panel {
+  width: 75%;
+  margin: 0 auto;
+  margin-buttom: 10px;
+}
+
+.wideButton {
+  width: 200px;
+}
+
+.paperTitle {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.quesBlock {
+  width: 600px;
+  margin: 0 auto;
+  word-wrap: break-word;
+  word-break: normal;
+  margin-bottom: 10px;
+}
+
+.question {
+  font-weight: 700;
+  font-size: larger;
+  margin-bottom: 3px;
+}
+
+#linePlace {
+  height: 20px;
+}
+
+.list-group > a {
+  color: black;
+}
+
+.redFont {
+  color: red;
+}
+
+th {
+  text-align: center;
+}
+
+.registerMain > h2 {
+  width: fit-content;
+  margin: 20px auto;
+}
+
+.registerMain >form>div{
+  min-height: 50px;
+}
+
+input[type=checkbox] {
+  width: 15px;
+  height: 15px;
+  margin: 15px 3px 0 3px;
+}

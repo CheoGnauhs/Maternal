@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding-top: 10px;
+}
+
+.logo {
+  width: 150px;
+  height: 75px;
+}
+
+.homeHeader {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+.homeHeaderNav {
+  display: inline-block;
+  margin-right: 110px;
+  float: right;
+  position: relative;
+  top: 30px;
+
+}
+
+.homeHeaderNav > a {
+  text-decoration: none;
+  font-size: 18px;
+  margin: 0 5px;
+}
+
+.homeMain {
+  height: 600px;
+  margin: 0 auto;
+}
+
+.homeBkg {
+  background: #E7DAD1 url(./img/bg.png) no-repeat center;
+
+}
+
+.homeFooter {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.homeFooter > p {
+  margin: 4px 0;
+  font-size: small;
+}
+
+.centerBlock {
+  text-align: center;
+}
+
+.inBlock {
+  height: 250px;
+  width: 200px;
+  background-color: #79777b;
+  display: inline-block;
+  text-align: center;
+  margin: 0 30px;
+  margin-top: 15px;
+}
+
+#block1 {
+  background: url("./img/company_block.png") no-repeat -50px 0;
+  border-radius: 7%;
+}
+
+#block2 {
+  background: url("./img/user_block.png") no-repeat center;
+  border-radius: 7%;
+}
+
+#block3 {
+  background: url("./img/nanny_block.png") no-repeat -10px 0;
+  border-radius: 7%;
+}
+
+.block_name {
+  display: block;
+  text-decoration: none;
+  color: #3a333d;
+  font-size: 30px;
+}
+
+.outBlock {
+  display: inline-block;
+  position: relative;
+  top: 85px;
+  margin: 0 20px;
+  text-align: center;
+}
